@@ -1,0 +1,27 @@
+.main-body{
+    background-color: cyan;
+    position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+    width: 100%;
+    height: 665px;
+}
+.divtop{
+    background-color: blueviolet;
+    width: 100%;
+    height: 56px;
+}
+.divside{
+    float: left;
+    background-color: brown;
+    width: 72px;
+    height: 609px;
+}
+.divcontent{
+    float: left;
+    background-color: darkgreen;
+    width: 1277px;
+    height: 609px;
+}
