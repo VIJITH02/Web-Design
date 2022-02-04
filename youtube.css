@@ -8,24 +8,130 @@ right: 0;
     width: 100%;
     height: 665px;
 }
-.divtop{
-    background-color: blueviolet;
+.div-top{
+    background-color: hsl(0deg 0% 13%);
     width: 100%;
     height: 56px;
 }
-.divside{
+.div-side{
     float: left;
     background-color: brown;
     width: 72px;
     height: 609px;
 }
-.divcontent{
+.div-content{
     float: left;
     background-color: darkgreen;
     width: 1277px;
     height: 609px;
 }
-.button1{
-    width: 100px;
-    height: 50px;
+.div-Menubutton{
+    float: left;
+    box-sizing: border-box;
+    padding-left: 17px;
+    padding-top: 9px;
+    width: 72px;
+    height: 56px;
+    k
+    
+}
+.menu-button{
+    cursor: pointer;
+    width: 38px;
+    height: 38px;
+}
+
+.div-Youtubeicon{
+    float: left;
+    
+    width: 120px;
+    height: 56px;
+}
+.button-Youtubeicon{    
+    border: 0px;
+    background-color: hsl(0deg 0% 13%);
+    cursor: pointer;
+    padding:0;
+    width: 120px;
+    height: 56px;
+}
+
+.div-Searchbar{
+    
+    box-sizing: border-box;
+    float: left;
+    padding-left: 140px;
+    padding-top: 8px;
+    
+    width: 708px;
+    height: 56px;
+}
+.input-Search{
+   
+    background-color: black;
+    border: 1px solid hsl(0deg 0% 19%);
+    color: white;
+    font-size: 17px;
+   
+    width: 562px;
+    height: 35px;
+}
+.div-Searchbutton{
+    margin-left: 1px;
+    box-sizing: border-box;
+    padding-top: 8px;
+    float: left;
+   
+    width: 64px;
+    height: 56px;
+}
+.button-Search{
+    padding-left: 8px;
+    cursor: pointer;
+    border: 1px solid hsl(0deg 0% 19%);
+    background-color: hsl(0deg 0% 19%);
+    width: 64px;
+    height: 39px;
+
+}
+.div-Voicesearchicon{
+    box-sizing: border-box;
+    float: left;
+    margin-top: 8px;
+    margin-left: 9px;
+    padding-top: px;
+    
+    width: 45px;
+    height: 45px;
+}
+.button-Voicesearchicon{
+    cursor: pointer;
+    border-width: 0;
+    background-color:black;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+}
+.button-Voicesearchicon
+    :active {
+        transform: scale(0.91);
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+button-Search
+    :active {
+        transform: scale(64 );
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+.divCreateicon{
+    box-sizing: border-box;
+    padding-top: 15px ;
+    padding-left: 15px;
+    margin-left: 100px ;
+    float: left;
+    
+    width: 56px;
+    height: 56px;
+
 }
