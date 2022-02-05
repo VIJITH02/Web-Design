@@ -118,20 +118,33 @@ right: 0;
         box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
         /* Lowering the shadow */
     }
-button-Search
+.button-Search
     :active {
-        transform: scale(64 );
+        transform: scale(0.91 );
         box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
         /* Lowering the shadow */
     }
 .divCreateicon{
     box-sizing: border-box;
-    padding-top: 15px ;
-    padding-left: 15px;
+    padding-top: 14px ;
+    padding-left: 5px;
     margin-left: 100px ;
     float: left;
     
     width: 56px;
     height: 56px;
 
+}
+
+.button-Create
+    :active {
+        transform: scale(0.91 );
+        box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+        /* Lowering the shadow */
+    }
+
+.button-Create{
+    
+    border: 0px solid hsl(0deg 0% 19%);
+    background-color: hsl(0deg 0% 13%);
 }
